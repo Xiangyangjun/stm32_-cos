@@ -12,7 +12,7 @@
 1、	创建信号量：OSSemCreate(INT16U cnt)，cnt为信号量初始计数。  
 2、	请求信号量：OSSemPend(OS_EVENT *pevent, INT16U timeout, INT8U *err)，使信号量计数-1，相当于P操作。  
 3、	发送信号量：OSSemPost(OS_EVENT *pevent)，使信号量计数+1，相当于V操作。  
-···
+```
 void task_1(void *pdata)
 {	 
 OSSemPend(msg_key,0,&err)
@@ -27,7 +27,7 @@ void task_3(void *pdata)
 （蓝灯亮）
     OSSemPost(msg_key）	   
 }
-···
+```
 ### 互斥信号量
 互斥信号量有两个功能：  
 1、	给共享资源一个标志，该标志表示该共享资源的占用情况；  
