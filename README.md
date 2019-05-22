@@ -51,8 +51,8 @@ void task_2(void *pdata)
 void task_3(void *pdat)
 {	
     OSMutexPend(msg_key,0,&err)
-   OSTimeDlyHMSM(0,0,0,800);
-（蓝灯亮）
+    OSTimeDlyHMSM(0,0,0,800);
+   （蓝灯亮）
     OSMutexPost(msg_key）
 }
 
