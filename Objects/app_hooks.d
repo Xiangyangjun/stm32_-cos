@@ -1,0 +1,10 @@
+.\objects\app_hooks.o: app_hooks.c
+.\objects\app_hooks.o: .\ucos-II\Source\includes.h
+.\objects\app_hooks.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\app_hooks.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\app_hooks.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\app_hooks.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\objects\app_hooks.o: .\ucos-II\Source\ucos_ii.h
+.\objects\app_hooks.o: .\ucos-II\Source\app_cfg.h
+.\objects\app_hooks.o: .\ucos-II\Source\os_cfg.h
+.\objects\app_hooks.o: .\ucos-II\ports\os_cpu.h
